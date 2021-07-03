@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.header 
+{
+  background-color: darkslategrey;
+  color: white;
+  padding: 20px;
+}
+.footer
+{
+  background-color: darkslategrey;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 180px
+}
+.footer a
+{
+    color: floralwhite;
+}
+.footer a :hover
+{
+    color: darkturquoise;
+}
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li
+ {
+  float: left;
+}
+
+li a 
+{
+  display: inline-block;
+  color:#111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,.dropdown:hover,.dropbtn
+{
+  background-color:grey;
+}
+.active
+ {
+  background-color:#111;
+  color: white
+}
+
+.dropbtn 
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown-content
+{
+  display: none;
+  position: absolute;
+  background-color:#f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover 
+{
+    background-color: darkturquoise
+}
+.dropdown:hover .dropdown-content
+ {
+  display: block;
+}
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>My Website</h1>
+</div>
+<ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="active" class="dropbtn">Home</a>
+    <div class="dropdown-content">
+      <a href="#">HTML CODE</a>
+      <a href="#">CSS CODE</a>
+      <a href="C:\Users\RADHIKA\Desktop\myhtmlfile\clock.html">JavaScript CODE</a>
+      <a href="#">WEB D CODES</a>
+    </div>
+    </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="active" class="dropbtn">Codes</a>
+    <div class="dropdown-content">
+      <a href="C:\Users\RADHIKA\Desktop\myhtmlfile\resumes.html">Example 1</a>
+      <a href="#">Example 2</a>
+      <a href="#">Example 3</a>
+    </div>
+    </li>
+  <li><a href="#contact" class="active">Contact</a></li>
+  <li><a href="#about" class="active">About</a></li>
+</ul>
+<h2>HTML, CSS, & JavaScript:</h2>
+<h3> An overview:</h3>
+<p>HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript.<br>CSS is used to control presentation, formatting, and layout.
+<br>JavaScript is used to control the behavior of different elements.<br>This a help website on HTML,CSS and JavaScript.<br> This website holds  the information regarding the example codes.</p>
+<div class="footer">
+    <p>Copyright © <a href="#" class="active" target="_blank">radhikasinghal</a></p>
+</div>
+</body>
+</html>
+
